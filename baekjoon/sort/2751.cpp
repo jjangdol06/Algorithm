@@ -58,13 +58,16 @@
 
 int n, data[10000000];
 
-int main(void){
+int main(void)
+{
     scanf("%d", &n);
-    for(int i=0;i<n;i++){
+    for (int i = 0; i < n; i++)
+    {
         scanf("%d", &data[i]);
     }
-    std::sort(data, data+n);
-    for(int i=0;i<n;i++){
+    std::sort(data, data + n);
+    for (int i = 0; i < n; i++)
+    {
         printf("%d\n", data[i]);
     }
     return 0;
