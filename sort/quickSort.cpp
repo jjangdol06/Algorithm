@@ -20,7 +20,8 @@ void quickSort(int *data, int start, int end){
         while(data[j] >= data[key] && j > start ){
             j--;
         }
-        if(i > j){            temp = data[j];
+        if(i > j){
+            temp = data[j];
             data[j] = data[key];
             data[key] = temp;
         }else{
